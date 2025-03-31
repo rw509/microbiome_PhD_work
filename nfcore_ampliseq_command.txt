@@ -3,7 +3,6 @@ nextflow run nf-core/ampliseq \
     -r 2.12.0 \
     -c DADA2_ADDSPECIES.conf \
     -profile eddie \
-    -resume \
     --input_folder "SRA" \
     --multiple_sequencing_runs \
     --input "./oral_samplesheet_no402.tsv" \
