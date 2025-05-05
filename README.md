@@ -57,7 +57,7 @@ These configuration files and scripts are related to running bioinformatics pipe
 
 ### `nfcore_taxprofiler_command.txt`
 
-* The command used for running the [`nf-core/ampliseq`](https://nf-co.re/taxprofiler) pipeline via Nextflow on Eddie (high performance compute cluster). 
+* The command used for running the [`nf-core/taxprofiler`](https://nf-co.re/taxprofiler) pipeline via Nextflow on Eddie (high performance compute cluster). 
 
 ## Azure batch configuation
 
