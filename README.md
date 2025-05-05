@@ -1,9 +1,6 @@
-# microbiome_PhD_work
-
-# Oral-Gut Microbiome Analysis Scripts
+# Oral-Gut Microbiome PhD Analysis Scripts
 
 This repository contains scripts and configuration files used for analysing and processing microbiome data in my PhD research, focusing specifically on the oral-gut microbiome interactions in inflammatory bowel disease.
-
 
 # 1. Meta-analysis of the oral microbiota in IBD
 
