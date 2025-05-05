@@ -4,6 +4,7 @@
 
 This repository contains scripts and configuration files used for analysing and processing microbiome data in my PhD research, focusing specifically on the oral-gut microbiome interactions.
 
+
 # 1. Meta-analysis of the oral microbiota in IBD
 
 ## Primer Scripts
@@ -49,6 +50,7 @@ These shell scripts are written to remove primer sequences from 16S rRNA sequenc
 
 * An R script for conducting meta-analysis of oral microbiome datasets using Phyloseq. Includes data import, preprocessing, normalisation, and diversity analyses.
 
+
 # 2. Taxonomic profiling the oral microbiota in IBD using shotgun metagenomics
 
 These configuration files and scripts are related to running bioinformatics pipelines using Nextflow on Azure Batch Cloud.
@@ -73,7 +75,7 @@ Ensure you have the necessary permissions and dependencies installed (R packages
 
 For further details or questions, please contact:
 
-* Robert
+* Robert Whelan
 * robert.whelan@ed.ac.uk
 
 © 2025 Robert Whelan
