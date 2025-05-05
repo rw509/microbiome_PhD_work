@@ -1,0 +1,17 @@
+nextflow run nf-core/taxprofiler \
+    -r 1.2.2  \
+    -profile azurebatch \
+    -c azurebatch.config \
+    --input samplesheet_final_test.csv \
+    --perform_runmerging \
+    --databases taxprofiler_databases_final.csv \
+    --outdir az://nextflow/taxprofiler_output_test \
+    --perform_shortread_qc \
+    --shortread_qc_adapter1 CTGTCTCTTATACACATCT \
+    --perform_shortread_hostremoval \
+    --save_hostremoval_unmapped \
+    --hostremoval_reference az://nextflow/GRCh38/GCA_000001405.29_GRCh38.p14_genomic.fna.gz \
+    --run_metaphlan \
+    --run_kraken2 \
+    --run_bracken \
+    --email Robert.Whelan@ed.ac.uk
